@@ -17,10 +17,4 @@ pipeline {
       }
     }
   }
-  post {
-  
-    always {
-      mail bcc: '', body: 'Pipeline', cc: '', from: '', replyTo: '', subject: 'Pipeline Status', to: 'deepak.khandelwal@zupee.in'
-    }
-  }
 }
