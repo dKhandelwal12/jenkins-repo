@@ -20,7 +20,7 @@ pipeline {
   post {
   
     always {
-      emailext body: 'Pipeline script from SCM Summary', subject: 'Pipeline Status', to: 'deepak.khandelwal@zupee.in'
+      mail bcc: '', body: 'Pipeline', cc: '', from: '', replyTo: '', subject: 'Pipeline Status', to: 'deepak.khandelwal@zupee.in'
     }
   }
 }
