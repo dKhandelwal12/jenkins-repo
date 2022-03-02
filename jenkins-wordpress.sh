@@ -1,8 +1,3 @@
-#!/bin/sh
-# Jenkins Wordpress Push Script
-# Star Dot Hosting Inc, 2017
-
-#check command input
 if [ -z "$1" ];
 then
         echo "JENKINS WP PUSH"
